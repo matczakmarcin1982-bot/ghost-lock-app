@@ -28,6 +28,6 @@ else:
 # Poziomy
 one_r = sl_pips * 0.0001
 st.subheader("Plan Schodków")
-st.write(f"🎯 TP 4R: {wejscie + (4 * one_r):.5f}")
-st.write(f"🛡️ SL @ 1R (cena 2R): {wejscie + (1 * one_r):.5f}")
-st.write(f"🛡️ SL @ 2R (cena 3R): {wejscie + (2 * one_r):.5f}")
+st.write(f"🎯 Cel TP 4R: {wejscie + (4 * one_r):.5f}")
+st.write(f"🛡️ SL @ 1R (gdy cena 2R): {wejscie + (1 * one_r):.5f}")
+st.write(f"🛡️ SL @ 2R (gdy cena 3R): {wejscie + (2 * one_r):.5f}")
